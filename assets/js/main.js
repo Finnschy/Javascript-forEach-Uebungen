@@ -82,5 +82,67 @@
 
   // let fahrenheit = [0, 32, 45, 50, 75, 80, 99, 120];
 
+//   function convertTemps(fahrenheit) {
+//       return fahrenheit.map(
+//           function(temp){
+//               return Math.round((temp - 32) / 1.8)
+//           } 
+//       );
+//   }
+// let result = convertTemps(fahrenheit)
+//   console.log(result);
+
   // let celcius = fahrenheit.map((item) => ((item - 32) / 1.8).toFixed(0))
   // console.log(celcius);
+
+
+
+  // Lev1_5_js-vertiefung_array-interation_forEach()
+
+  let checkNumber = [
+    18,
+    16,
+    80,
+    51,
+    47,
+    38,
+    95,
+    42,
+    68,
+    61,
+    34,
+    51,
+    20,
+    17,
+    56,
+    31,
+    100,
+    6,
+    5,
+    30,
+    74,
+    97,
+    28,
+    99,
+    91,
+    27,
+    73,
+    12,
+    92,
+    6,
+    27,
+    71,
+    26,
+    15,
+    78
+  ];
+
+  // console.log(checkNumber);
+
+  checkNumber.forEach((element) => {
+    if (element % 3 == 0) {
+        console.log(element+100);
+    } else {
+        console.log(element);
+    }
+})
