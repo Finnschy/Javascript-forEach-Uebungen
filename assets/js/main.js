@@ -80,16 +80,7 @@
 
   // Lev1_4_js-vertiefung_array-interation_map()_math.round
 
-  let fahrenheit = [0, 32, 45, 50, 75, 80, 99, 120];
+  // let fahrenheit = [0, 32, 45, 50, 75, 80, 99, 120];
 
-  function convertTemps(fahrenheit) {
-      return fahrenheit.map(
-          function(temp){
-              return Math.round((temp - 32) / 1.8)
-          } 
-      );
-  }
-let result = convertTemps(fahrenheit)
-  console.log(result);
-
-  
+  // let celcius = fahrenheit.map((item) => ((item - 32) / 1.8).toFixed(0))
+  // console.log(celcius);
